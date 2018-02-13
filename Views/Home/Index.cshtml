@@ -1,0 +1,55 @@
+﻿@model login_reg.Models.User;
+
+<h1>Login/Registration!</h1>
+<br>
+<br>
+<br>
+<div class="box">
+    <div class="boxes">
+        <form asp-controller="User" asp-action="register" method="post">
+            <span class="error" asp-validation-for="First_Name"></span>
+            <label asp-for="First_Name">First Name:</label>
+            <input asp-for="First_Name" /><br><br>
+            <span class="error" asp-validation-for="Last_Name"></span>
+            <label asp-for="Last_Name">Last Name:</label>
+            <input asp-for="Last_Name" /><br><br>
+            <span class="error" asp-validation-for="Email"></span>
+            <label asp-for="Email">Email:</label>
+            <input asp-for="Email" /><br><br>
+            <span class="error" asp-validation-for="Password"></span>
+            <label asp-for="Password">Password:</label>
+            <input asp-for="Password" /><br><br>
+            <span class="error" asp-validation-for="Password_Confirmation"></span>
+            <label asp-for="Password_Confirmation">Password Confirmation:</label>
+            <input asp-for="Password_Confirmation" /><br><br>
+            <button type="submit">Register!</button>
+        </form>
+    </div>
+
+    <div class="boxes">
+        <span class="error">@TempData["Message"]</span>
+        <form method="post" action="login">
+            <label for="email">Email:</label>
+            <input type="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input name="password" type="password"><br><br>
+            <input type="submit" value="LogIn!">
+        </form>
+    </div>
+
+    <style>
+        .error {
+            color: red;
+        }
+        
+        .box {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .boxes {
+            display: inline-block;
+            width: 48%;
+            height: 100%
+        }
+    </style>

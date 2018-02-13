@@ -1,0 +1,10 @@
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/bin/Debug/netcoreapp2.0/login_reg.deps.json
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/bin/Debug/netcoreapp2.0/login_reg.runtimeconfig.json
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/bin/Debug/netcoreapp2.0/login_reg.runtimeconfig.dev.json
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/bin/Debug/netcoreapp2.0/login_reg.dll
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/bin/Debug/netcoreapp2.0/login_reg.pdb
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/obj/Debug/netcoreapp2.0/login_reg.csproj.CoreCompileInputs.cache
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/obj/Debug/netcoreapp2.0/login_reg.AssemblyInfoInputs.cache
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/obj/Debug/netcoreapp2.0/login_reg.AssemblyInfo.cs
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/obj/Debug/netcoreapp2.0/login_reg.dll
+/Users/mishanea/Documents/Coding_Dojo/c#_stack/C#_net.Core/login_reg/obj/Debug/netcoreapp2.0/login_reg.pdb
